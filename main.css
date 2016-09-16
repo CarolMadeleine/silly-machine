@@ -1,0 +1,47 @@
+* {
+	margin: auto;
+	padding: 0;
+	border: 0;
+	text-align: center;
+}
+body{
+	background-image: url(fondo2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.circulo{
+	border-radius: 50%;
+	width:40px;
+	height:40px;
+	border:8px solid #D7FFF1;
+	box-shadow: -4px 4px 24px -10px rgba(97,97,97,1);;
+	padding: 4%;
+	margin: 140px 40px 40px 40px;
+	display: inline-block;
+	color: white;
+	font-size: 16px;
+}
+.uno{
+	background-color: #FFBC42;
+}
+.dos{
+	background-color: #D81159;
+}
+.tres{
+	background-color: #218380;
+}
+form{
+    width: 100%;
+}
+input{
+    background:rgb(230,231,243);
+    margin-bottom: 20px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+button{
+    background:rgb(230,231,243);
+    padding: 12px;
+    margin-bottom: 12px;
+}
